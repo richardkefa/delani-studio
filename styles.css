@@ -35,7 +35,7 @@ p>span {
 }
 
 .services>h2 {
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .col-md-4 {
@@ -43,7 +43,14 @@ p>span {
   flex-direction: column;
   text-align: center;
   align-items: center;
+  
 }
 .col-md-4>img {
   width: 70px;
+  cursor: pointer;
+}
+
+#design,#development,#management {
+  display: none;
+
 }

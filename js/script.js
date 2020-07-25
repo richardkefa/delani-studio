@@ -1,5 +1,26 @@
 $(document).ready(function(){
   $(".development").click(function(){
-    $("#development").slideToggle();
+    $("#development").toggle();
+    $(".development").toggle();
+  });
+  $("#development").click(function(){
+    $("#development").toggle();
+    $(".development").toggle();
+  })
+  $(".design").click(function(){
+    $("#design").toggle();
+    $(".design").toggle();
+  });
+  $("#design").click(function(){
+    $("#design").toggle();
+    $(".design").toggle();
+  });
+  $(".management").click(function(){
+    $("#management").toggle();
+    $(".management").toggle();
+  });
+  $(".management").click(function(){
+    $("#management").toggle();
+    $(".management").toggle();
   });
 });
