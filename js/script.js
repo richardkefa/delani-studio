@@ -26,11 +26,16 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-  $(".img").hover(function(){
-    $("this").css("opacity","2");
-    $(".title").css("opacity","1");
-  },
+  $(".title").css('display','none');
+  var works =["work1", "work2", "work3", "work4", "work5", "work6", "work7", "work8"]
+  works.forEach(function(work){
+  $("."+work).hover(function(){
+    $(".title",this).fadeIn();
+    $("."+work).css('opacity','0.4')
+     },
   function (){
-    $("this").css("opacity","1")
+    $(".title").fadeOut()
+    $("."+work).css('opacity','1')
+    });
   });
 });
