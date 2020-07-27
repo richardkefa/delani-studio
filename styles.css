@@ -20,6 +20,10 @@ p>span {
   text-align: center;
 }
 
+#mouse-click {
+  margin-top: 100px;
+}
+
 .services {
   text-align: center;
   color: white;
