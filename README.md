@@ -5,6 +5,7 @@
 ## Description 
 This is version 1.0 of Delani studio website. The wwebsite offers a short description of the services that are offered at Delani studio.
 There are samples of previous projects.
+https://richardkefa.github.io/delani-studio/
 
 ## User instructions 
 * Open the web page.
