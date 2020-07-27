@@ -28,7 +28,14 @@ The page was built using
 In case of any issue during collaboration please-
 * Email at richardkefa7@gmail.com
 ## BDD
-
+### Feature 
+user can send message
+### Senario
+The user loads the page.
+They enter the names and email address.
+They can type there message.
+Press on enter to submit there details and message.
+Recives an alert that the message has been recieved.
 
 ### License
 MIT License

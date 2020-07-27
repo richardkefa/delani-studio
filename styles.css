@@ -98,11 +98,12 @@ p>span {
   height: 70vh;
 }
 
-input {
+input,textarea {
   background:transparent;
   border: white solid 2px;
   margin: 10px;
   width: 30vw;
+  color: white;
 }
 
 ::placeholder {
@@ -110,8 +111,6 @@ input {
 }
 
 #msg{
-  height: 50vh;
-  width: 50vw;
   margin: 10px;
 }
 footer {
