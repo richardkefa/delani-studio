@@ -19,8 +19,18 @@ $(document).ready(function(){
     $("#management").toggle();
     $(".management").toggle();
   });
-  $(".management").click(function(){
+  $("#management").click(function(){
     $("#management").toggle();
     $(".management").toggle();
+  });
+});
+
+$(document).ready(function(){
+  $(".img").hover(function(){
+    $("this").css("opacity","2");
+    $(".title").css("opacity","1");
+  },
+  function (){
+    $("this").css("opacity","1")
   });
 });
