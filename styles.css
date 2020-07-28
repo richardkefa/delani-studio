@@ -48,8 +48,6 @@ p>span {
   justify-content: center;
   text-align: center;
   align-items: center;
-  
-  
 }
 .col-md-4>img {
   width: 100px;
@@ -80,7 +78,7 @@ p>span {
 
 .inner-grid {
   flex: 25%;
-  padding: 10pxpx;
+  padding: 10px;
   max-width: 25%;
 }
 .work>img {
