@@ -1,30 +1,19 @@
 //Front end code
+// What we do toogle
 $(document).ready(function () {
-  $(".development").click(function () {
-    $("#development").toggle();
-    $(".development").toggle();
-  });
-  $("#development").click(function () {
-    $("#development").toggle();
-    $(".development").toggle();
+  var whatwedo = ["development", "design", "management"]
+  whatwedo.forEach(function (doing) {
+    $("." + doing).click(function () {
+      $("#" + doing).toggle();
+      $("." + doing).toggle();
+    });
+    $("#" + doing).click(function () {
+      $("#" + doing).toggle();
+      $("." + doing).toggle();
+    })
   })
-  $(".design").click(function () {
-    $("#design").toggle();
-    $(".design").toggle();
-  });
-  $("#design").click(function () {
-    $("#design").toggle();
-    $(".design").toggle();
-  });
-  $(".management").click(function () {
-    $("#management").toggle();
-    $(".management").toggle();
-  });
-  $("#management").click(function () {
-    $("#management").toggle();
-    $(".management").toggle();
-  });
 });
+// Portfolio hover effect
 $(document).ready(function () {
   $(".title").css('display', 'none');
   var works = ["work1", "work2", "work3", "work4", "work5", "work6", "work7", "work8"]
@@ -39,6 +28,7 @@ $(document).ready(function () {
       });
   });
 });
+//submit alert message
 $(document).ready(function () {
   $("form").submit(function () {
     var name = $("#name").val();
