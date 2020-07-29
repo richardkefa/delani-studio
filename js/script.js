@@ -1,29 +1,16 @@
 //Front end code
 $(document).ready(function () {
-  $(".development").click(function () {
-    $("#development").toggle();
-    $(".development").toggle();
-  });
-  $("#development").click(function () {
-    $("#development").toggle();
-    $(".development").toggle();
+  var whatwedo = ["development", "design", "management"]
+  whatwedo.forEach(function (doing) {
+    $("." + doing).click(function () {
+      $("#" + doing).toggle();
+      $("." + doing).toggle();
+    });
+    $("#" + doing).click(function () {
+      $("#" + doing).toggle();
+      $("." + doing).toggle();
+    })
   })
-  $(".design").click(function () {
-    $("#design").toggle();
-    $(".design").toggle();
-  });
-  $("#design").click(function () {
-    $("#design").toggle();
-    $(".design").toggle();
-  });
-  $(".management").click(function () {
-    $("#management").toggle();
-    $(".management").toggle();
-  });
-  $("#management").click(function () {
-    $("#management").toggle();
-    $(".management").toggle();
-  });
 });
 $(document).ready(function () {
   $(".title").css('display', 'none');
