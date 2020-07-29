@@ -1,4 +1,5 @@
 //Front end code
+// What we do toogle
 $(document).ready(function () {
   var whatwedo = ["development", "design", "management"]
   whatwedo.forEach(function (doing) {
@@ -12,6 +13,7 @@ $(document).ready(function () {
     })
   })
 });
+// Portfolio hover effect
 $(document).ready(function () {
   $(".title").css('display', 'none');
   var works = ["work1", "work2", "work3", "work4", "work5", "work6", "work7", "work8"]
@@ -26,6 +28,7 @@ $(document).ready(function () {
       });
   });
 });
+//submit alert message
 $(document).ready(function () {
   $("form").submit(function () {
     var name = $("#name").val();
